@@ -7,8 +7,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 
-df=pd.read_excel("C:/Users/venkatesh.r.mullangi/Desktop/apperal/Data/Physical properties.xlsx")
-data4 = pd.read_csv("C:/Users/venkatesh.r.mullangi/Desktop/apperal/Data/data4.csv")
+df=pd.read_excel("Data/Physical properties.xlsx")
+data4 = pd.read_csv("Data/data4.csv")
 
 df = pd.merge(df, data4, on='Material')
 
@@ -54,7 +54,7 @@ def get_recommendations(Material, cosine_sim=cosine_sim):
     return df3
 
 def sus_plot():
-    material_data = pd.read_excel("C:/Users/venkatesh.r.mullangi/Desktop/apperal/Data/materail_composition.xlsx")
+    material_data = pd.read_excel("Data/materail_composition.xlsx")
     material_data=material_data.drop(['Unnamed: 0'],axis=1)
     material_data=material_data.T
     material_data.reset_index(inplace=True)

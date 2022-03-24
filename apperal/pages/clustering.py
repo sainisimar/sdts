@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
 
 def cluster():
-    data = pd.read_excel("dataset_rawmaterials_consumption_Algo_input.xlsx")
+    data = pd.read_excel("Data/dataset_rawmaterials_consumption_Algo_input.xlsx")
 
     data1 = data.dropna()
     numer = data1[["WaterConsumption","EnergyConsumption","co2e","GHGemissions",

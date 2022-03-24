@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 def app():
     #df = pd.DataFrame(data)
     def get_data():
-        data = pd.read_excel("C:/Users/venkatesh.r.mullangi/Desktop/apperal/Data/Full Dataset.xlsx")
+        data = pd.read_excel("Data/Full Dataset.xlsx")
         return data
 
     df = get_data()

@@ -9,7 +9,7 @@ def app():
     #reading the data
     @st.cache
     def get_data():
-        data = pd.read_excel("C:/Users/venkatesh.r.mullangi/Desktop/apperal/Data/Full Dataset.xlsx")
+        data = pd.read_excel("Data/Full Dataset.xlsx")
         return data
 
     df = get_data()

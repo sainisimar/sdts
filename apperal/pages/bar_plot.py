@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 
 def plot():
-    data = pd.read_csv("C:/Users/venkatesh.r.mullangi/Desktop/apperal/Data/data_output.csv")
+    data = pd.read_csv("Data/data_output.csv")
 
     values = data['Cluster'].to_numpy()
     material = data['Raw Material']

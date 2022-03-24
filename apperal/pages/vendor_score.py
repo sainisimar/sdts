@@ -7,8 +7,8 @@ import seaborn as sns
 
 def rank_suppliers():
 
-    sup=pd.read_excel("C:/Users/venkatesh.r.mullangi/Desktop/apperal/Data/Supplier_data_another.xlsx",sheet_name='Data')
-    Feature_Metadata=pd.read_excel("C:/Users/venkatesh.r.mullangi/Desktop/apperal/Data/Supplier_data_another.xlsx",sheet_name='Metadata')
+    sup=pd.read_excel("Data/Supplier_data_another.xlsx",sheet_name='Data')
+    Feature_Metadata=pd.read_excel("Data/Supplier_data_another.xlsx",sheet_name='Metadata')
 
     sup=sup.replace(0,0.0001)
     sup1=pd.DataFrame()

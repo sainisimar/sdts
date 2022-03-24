@@ -55,7 +55,7 @@ def data():
     #reading the data
     @st.cache
     def get_data():
-        data = pd.read_excel("C:/Users/venkatesh.r.mullangi/Desktop/apperal/Data/partial_data.xlsx")
+        data = pd.read_excel("Data/partial_data.xlsx")
         return data
 
     df = get_data()
@@ -75,7 +75,7 @@ def data():
     labels = df4.columns
     values = df4.values.flatten()
     #labels1 = labels
-    df4.to_excel('C:/Users/venkatesh.r.mullangi/Desktop/apperal/Data/materail_composition.xlsx')
+    df4.to_excel('Data/materail_composition.xlsx')
 
     return labels,values
 
