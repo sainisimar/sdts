@@ -1,0 +1,24 @@
+Cluster,Raw Material,label,Cost
+1,Cotton,Non-Sustainable,60
+0,Organic_cotton,Sustainable,130
+0,Linen,Sustainable,314
+0,Hemp,Sustainable,155
+0,Jute,Sustainable,65
+1,Silk,Non-Sustainable,1350
+1,Wool,Non-Sustainable,350
+1,Leather,Non-Sustainable,275
+0,Camel,Sustainable,3000
+1,Cashmere,Non-Sustainable,5247.5
+1,Alpaca,Non-Sustainable,2000
+0,Feathers,Sustainable,2000
+0,Polyester,Sustainable,150
+1,Nylon,Non-Sustainable,105
+1,Acrylic,Non-Sustainable,82.5
+0,Spandex,Sustainable,145
+0,Elastane,Sustainable,550
+1,Polyamide,Non-Sustainable,110
+0,Lyocell,Sustainable,150
+0,Viscose,Sustainable,70
+0,Acetate,Sustainable,115
+0,Modal,Sustainable,175
+0,Rayon,Sustainable,80
